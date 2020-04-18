@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>单向偏移后向归纳</title>
+    <url>/%E8%AF%BE%E7%A8%8B/%E5%8D%9A%E5%BC%88%E8%AE%BA/%E5%8D%9A%E5%BC%88%E8%AE%BA/</url>
+    <content><![CDATA[<h2 id="单向偏移，后向归纳"><a href="#单向偏移，后向归纳" class="headerlink" title="单向偏移，后向归纳"></a>单向偏移，后向归纳</h2><p>上节课讲了扩展式博弈的NE，发现NE中存在一些不合理的结果，因此需要寻找子博弈完美均衡。</p>
+<h3 id="一、目标"><a href="#一、目标" class="headerlink" title="一、目标"></a>一、目标</h3><p>本节课探究两个目标：</p>
+<ol>
+<li>子博弈完美均衡(SPE)是否存在？</li>
+<li>如何找到SPE？</li>
+</ol>
+<p>先给出结论：</p>
+<ol>
+<li>有限的完全信息扩展式博弈，存在SPE</li>
+<li>计算：后向归纳</li>
+</ol>
+<h3 id="二、寻找SPE-–-后向归纳"><a href="#二、寻找SPE-–-后向归纳" class="headerlink" title="二、寻找SPE – 后向归纳"></a>二、寻找SPE – 后向归纳</h3><p>步骤：</p>
+<ol>
+<li>从最末端的非叶子结点开始(从最后的子博弈开始)，计算NE(此时对于这个非叶子结点的玩家，相当于寻找他的最优收益)。用这个收益，替代这个子博弈根结点。<ol start="2">
+<li>重复第1步，直到……</li>
+</ol>
+</li>
+</ol>
+
+
+<img src="head.jpg" style="zoom:50%;" />
+
+<img src="/%E8%AF%BE%E7%A8%8B/%E5%8D%9A%E5%BC%88%E8%AE%BA/%E5%8D%9A%E5%BC%88%E8%AE%BA/head.jpg" class="" width="200" height="100" title="This is an image">
+
+
+
+<p><a href="#一、目标">tai</a></p>
+
+
+<p><a href="/%E8%AF%BE%E7%A8%8B/%E5%8D%9A%E5%BC%88%E8%AE%BA/2/#一、目标">hexo 安装</a></p>
+]]></content>
+      <categories>
+        <category>课程</category>
+        <category>博弈论</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>博弈论2 -- 单向偏移，后向归纳</title>
+    <url>/%E8%AF%BE%E7%A8%8B/%E5%8D%9A%E5%BC%88%E8%AE%BA/2/</url>
+    <content><![CDATA[<h2 id="单向偏移，后向归纳"><a href="#单向偏移，后向归纳" class="headerlink" title="单向偏移，后向归纳"></a>单向偏移，后向归纳</h2><p>上节课讲了扩展式博弈的NE，发现NE中存在一些不合理的结果，因此需要寻找子博弈完美均衡。</p>
+<h3 id="一、目标"><a href="#一、目标" class="headerlink" title="一、目标"></a>一、目标</h3><p>本节课探究两个目标：</p>
+<ol>
+<li>子博弈完美均衡(SPE)是否存在？</li>
+<li>如何找到SPE？</li>
+</ol>
+<p>先给出结论：</p>
+<ol>
+<li>有限的完全信息扩展式博弈，存在SPE</li>
+<li>计算：后向归纳</li>
+</ol>
+<h3 id="二、寻找SPE-–-后向归纳"><a href="#二、寻找SPE-–-后向归纳" class="headerlink" title="二、寻找SPE – 后向归纳"></a>二、寻找SPE – 后向归纳</h3><p>步骤：</p>
+<ol>
+<li>从最末端的非叶子结点开始(从最后的子博弈开始)，计算NE(此时对于这个非叶子结点的玩家，相当于寻找他的最优收益)。用这个收益，替代这个子博弈根结点。</li>
+<li>重复第1步，直到……</li>
+</ol>
+]]></content>
+      <categories>
+        <category>课程</category>
+        <category>博弈论</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>搭建博客</title>
+    <url>/%E5%B0%8F%E8%AE%B0/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<p>折腾了很久，总算有点成效，工具更新太快，教程已经跟不上了。就先这样写博客吧！这篇文章是我随便记记，特别乱，其他人还是不要看了。</p>
+<a id="more"></a>
+
+<p>参考链接</p>
+<ul>
+<li><p><a href="https://hexo.io/zh-cn/docs/asset-folders.html" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/asset-folders.html</a></p>
+</li>
+<li><p><a href="https://ouuan.github.io/post/hexo博客搭建指北/" target="_blank" rel="noopener">hexo博客搭建指北</a></p>
+</li>
+</ul>
+<h3 id="插入链接"><a href="#插入链接" class="headerlink" title="插入链接"></a>插入链接</h3><ul>
+<li><pre><code>{% post_link 文章标题（不要后缀） 链接名称（可选） %}
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">如：&#123;% post_link 课程&#x2F;博弈论&#x2F;博弈论 链接名称 %&#125;</span><br><span class="line"></span><br><span class="line">##### 锚点</span><br><span class="line"></span><br><span class="line">### 插入图片</span><br><span class="line"></span><br><span class="line">将图片放入同名的资源文件夹中</span><br><span class="line"></span><br><span class="line">然后</span><br></pre></td></tr></table></figure>
+&lt;img src=&quot;head.jpg&quot; style=&quot;zoom:50%;&quot; /&gt;
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">#### 图片大图：</span><br><span class="line"></span><br><span class="line">这种方法使用了图片浏览放大功能fancybox插件</span><br><span class="line"></span><br><span class="line">切换到lib目录</span><br></pre></td></tr></table></figure>
+cd next/source/lib
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">下载插件</span><br></pre></td></tr></table></figure>
+git clone https://github.com/theme-next/theme-next-fancybox3 fancybox
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">更改主题配置文件</span><br><span class="line">更改&#96;next&#x2F;_config.yml&#96;文件</span><br></pre></td></tr></table></figure>
+fancybox: true
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">[Fancybox的API和配置选项说明](https:&#x2F;&#x2F;blog.csdn.net&#x2F;wangshuxuncom&#x2F;article&#x2F;details&#x2F;21163895)</span><br><span class="line"></span><br><span class="line">### 引用资源</span><br><span class="line"></span><br><span class="line">引用文章的资源。</span><br></pre></td></tr></table></figure>
+{% asset_path filename %}
+{% asset_img filename [title] %}
+{% asset_link filename [title] [escape] %}
+{% asset_img head.jpg 200 100 This is an image %}
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">### 跳转到锚点</span><br><span class="line"></span><br><span class="line">[hexo 链接到站内文章指定锚点](https:&#x2F;&#x2F;blog.jijian.link&#x2F;2020-01-08&#x2F;hexo-anchor-link&#x2F;)</span><br><span class="line"></span><br><span class="line">#### hexo 标题与 id 关系</span><br><span class="line"></span><br><span class="line">hexo markdown 文章里面如果使用 &#96;## 文章二级标题&#96; 生成标题，标题会自动生成 &#96;id&#x3D;&quot;文章二级标题&quot;&#96;。</span><br><span class="line"></span><br><span class="line">如果标题中间有 &#96;半角空格&#96; 或者 &#96;全角空格&#96; ，空格都会变成连字符。</span><br><span class="line"></span><br><span class="line">如：一个半角空格 &#96;## hello world&#96; 或 多个半角 &#96;## hello world&#96; 或 多个全角空格 &#96;## hello　　　world&#96; 。</span><br><span class="line"></span><br><span class="line">其生成的 id 会变成 &#96;id&#x3D;&quot;hello-world&quot;&#96;，多个空格会合并成一个连字符。</span><br><span class="line"></span><br><span class="line">说完了生成的锚点 id ，再说说如何添加跳转到锚点。</span><br><span class="line"></span><br><span class="line">#### 当前文章锚点跳转</span><br><span class="line"></span><br><span class="line">使用 markdown 内置的链接方式即可，其中如果有空格，需要把空格换成连字符 &#96;-&#96; ，如下：</span><br></pre></td></tr></table></figure>
+[跳转到本文锚点](#hexo-标题与-id-关系)
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">示例：[跳转到本文锚点](https:&#x2F;&#x2F;blog.jijian.link&#x2F;2020-01-08&#x2F;hexo-anchor-link&#x2F;#hexo-标题与-id-关系)</span><br><span class="line"></span><br><span class="line">#### 站内文章链接</span><br><span class="line"></span><br><span class="line">官方有标签插件实现站内文章链接，如下：</span><br></pre></td></tr></table></figure>
+post_link官方文档{% post_link 'hexo blog' %}
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">示例：[hexo blog 搭建](https:&#x2F;&#x2F;blog.jijian.link&#x2F;2020-01-03&#x2F;hexo-blog&#x2F;)</span><br><span class="line"></span><br><span class="line">注意： 这儿优先使用文章 [&#96;Front-matter&#96;](https:&#x2F;&#x2F;hexo.io&#x2F;zh-cn&#x2F;docs&#x2F;front-matter) 中的&#96;permalink&#96;字段，如果没有 &#96;permalink&#96; ，则使用 &#96;文件名字&#96;！</span><br><span class="line"></span><br><span class="line">#### 站内其他文章锚点链接</span><br><span class="line"></span><br><span class="line">上面的 &#96;post_link&#96; 方式链接站内文章好用，但是不支持文章的锚点链接，我们需要换一种方式。</span><br><span class="line"></span><br><span class="line">官方文档还有一个 &#96;post_path&#96; ，用于获取文章路径，结合 markdown 内置的链接方式，即可实现锚点超链接，如下：</span><br></pre></td></tr></table></figure>
+post_path官方文档[hexo 安装]({% post_path 'hexo blog' %}#安装)
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">示例：[hexo 安装](https:&#x2F;&#x2F;blog.jijian.link&#x2F;2020-01-03&#x2F;hexo-blog&#x2F;#安装)</span><br><span class="line"></span><br><span class="line">也可以使用 html a 标签实现，如下：</span><br></pre></td></tr></table></figure>
+&lt;a href=&quot;{% post_path 'hexo blog' %}#安装&quot;&gt;hexo 安装&lt;/a&gt;
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">示例：[hexo 安装](https:&#x2F;&#x2F;blog.jijian.link&#x2F;2020-01-03&#x2F;hexo-blog&#x2F;#安装)</span><br><span class="line"></span><br><span class="line">注意：</span><br><span class="line"></span><br><span class="line">1. 如果文章中有图片，可能会出现锚点位置不准确问题，原因是图片加载成功之后会把内容高度撑开。</span><br><span class="line">2. 如果如果有空格，需要把空格换成连字符 &#96;-&#96;。</span><br><span class="line"></span><br><span class="line">#### 站外文章锚点</span><br><span class="line"></span><br><span class="line">直接使用全路径即可，如下：</span><br></pre></td></tr></table></figure>
+[hexo 引用文章](https://hexo.io/zh-cn/docs/tag-plugins#%E5%BC%95%E7%94%A8%E6%96%87%E7%AB%A0)
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">示例：[hexo 引用文章](https:&#x2F;&#x2F;hexo.io&#x2F;zh-cn&#x2F;docs&#x2F;tag-plugins#引用文章)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">### 新建文章</span><br></pre></td></tr></table></figure>
+hexo new [layout] &lt;title&gt;
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">### 摘要</span><br></pre></td></tr></table></figure>
+&lt;!-- more --&gt;</code></pre></li>
+</ul>
+<h3 id="关闭动画"><a href="#关闭动画" class="headerlink" title="关闭动画"></a>关闭动画</h3><p>主题配置文件：motion选项：false</p>
+]]></content>
+  </entry>
+</search>

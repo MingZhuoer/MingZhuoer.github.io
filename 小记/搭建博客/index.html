@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.2.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"yoursite.com","root":"/","scheme":"Pisces","version":"7.7.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="折腾了很久，总算有点成效，工具更新太快，教程已经跟不上了。就先这样写博客吧！这篇文章是我随便记记，特别乱，其他人还是不要看了。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="搭建博客">
+<meta property="og:url" content="http://yoursite.com/%E5%B0%8F%E8%AE%B0/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/">
+<meta property="og:site_name" content="卓主任的博客">
+<meta property="og:description" content="折腾了很久，总算有点成效，工具更新太快，教程已经跟不上了。就先这样写博客吧！这篇文章是我随便记记，特别乱，其他人还是不要看了。">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2020-04-18T18:16:36.000Z">
+<meta property="article:modified_time" content="2020-04-18T18:49:34.619Z">
+<meta property="article:author" content="Mingzhuoer">
+<meta property="article:tag" content="学习">
+<meta property="article:tag" content=" 计算机">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://yoursite.com/%E5%B0%8F%E8%AE%B0/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true
+  };
+</script>
+
+  <title>搭建博客 | 卓主任的博客</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <div>
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">卓主任的博客</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+        <p class="site-subtitle">嘿嘿</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-fw fa-th"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>归档</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+
+</nav>
+  <div class="site-search">
+    <div class="search-pop-overlay">
+  <div class="popup search-popup">
+      <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocorrect="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+  </div>
+</div>
+
+  </div>
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content">
+            
+
+  <div class="posts-expand">
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/%E5%B0%8F%E8%AE%B0/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/uploads/head.jpg">
+      <meta itemprop="name" content="Mingzhuoer">
+      <meta itemprop="description" content="一起加油！(ง •_•)ง">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="卓主任的博客">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          搭建博客
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2020-04-19 02:16:36 / 修改时间：02:49:34" itemprop="dateCreated datePublished" datetime="2020-04-19T02:16:36+08:00">2020-04-19</time>
+            </span>
+
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>折腾了很久，总算有点成效，工具更新太快，教程已经跟不上了。就先这样写博客吧！这篇文章是我随便记记，特别乱，其他人还是不要看了。</p>
+<a id="more"></a>
+
+<p>参考链接</p>
+<ul>
+<li><p><a href="https://hexo.io/zh-cn/docs/asset-folders.html" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/asset-folders.html</a></p>
+</li>
+<li><p><a href="https://ouuan.github.io/post/hexo博客搭建指北/" target="_blank" rel="noopener">hexo博客搭建指北</a></p>
+</li>
+</ul>
+<h3 id="插入链接"><a href="#插入链接" class="headerlink" title="插入链接"></a>插入链接</h3><ul>
+<li><pre><code>{% post_link 文章标题（不要后缀） 链接名称（可选） %}
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">如：&#123;% post_link 课程&#x2F;博弈论&#x2F;博弈论 链接名称 %&#125;</span><br><span class="line"></span><br><span class="line">##### 锚点</span><br><span class="line"></span><br><span class="line">### 插入图片</span><br><span class="line"></span><br><span class="line">将图片放入同名的资源文件夹中</span><br><span class="line"></span><br><span class="line">然后</span><br></pre></td></tr></table></figure>
+&lt;img src=&quot;head.jpg&quot; style=&quot;zoom:50%;&quot; /&gt;
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">#### 图片大图：</span><br><span class="line"></span><br><span class="line">这种方法使用了图片浏览放大功能fancybox插件</span><br><span class="line"></span><br><span class="line">切换到lib目录</span><br></pre></td></tr></table></figure>
+cd next/source/lib
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">下载插件</span><br></pre></td></tr></table></figure>
+git clone https://github.com/theme-next/theme-next-fancybox3 fancybox
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">更改主题配置文件</span><br><span class="line">更改&#96;next&#x2F;_config.yml&#96;文件</span><br></pre></td></tr></table></figure>
+fancybox: true
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">[Fancybox的API和配置选项说明](https:&#x2F;&#x2F;blog.csdn.net&#x2F;wangshuxuncom&#x2F;article&#x2F;details&#x2F;21163895)</span><br><span class="line"></span><br><span class="line">### 引用资源</span><br><span class="line"></span><br><span class="line">引用文章的资源。</span><br></pre></td></tr></table></figure>
+{% asset_path filename %}
+{% asset_img filename [title] %}
+{% asset_link filename [title] [escape] %}
+{% asset_img head.jpg 200 100 This is an image %}
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">### 跳转到锚点</span><br><span class="line"></span><br><span class="line">[hexo 链接到站内文章指定锚点](https:&#x2F;&#x2F;blog.jijian.link&#x2F;2020-01-08&#x2F;hexo-anchor-link&#x2F;)</span><br><span class="line"></span><br><span class="line">#### hexo 标题与 id 关系</span><br><span class="line"></span><br><span class="line">hexo markdown 文章里面如果使用 &#96;## 文章二级标题&#96; 生成标题，标题会自动生成 &#96;id&#x3D;&quot;文章二级标题&quot;&#96;。</span><br><span class="line"></span><br><span class="line">如果标题中间有 &#96;半角空格&#96; 或者 &#96;全角空格&#96; ，空格都会变成连字符。</span><br><span class="line"></span><br><span class="line">如：一个半角空格 &#96;## hello world&#96; 或 多个半角 &#96;## hello world&#96; 或 多个全角空格 &#96;## hello　　　world&#96; 。</span><br><span class="line"></span><br><span class="line">其生成的 id 会变成 &#96;id&#x3D;&quot;hello-world&quot;&#96;，多个空格会合并成一个连字符。</span><br><span class="line"></span><br><span class="line">说完了生成的锚点 id ，再说说如何添加跳转到锚点。</span><br><span class="line"></span><br><span class="line">#### 当前文章锚点跳转</span><br><span class="line"></span><br><span class="line">使用 markdown 内置的链接方式即可，其中如果有空格，需要把空格换成连字符 &#96;-&#96; ，如下：</span><br></pre></td></tr></table></figure>
+[跳转到本文锚点](#hexo-标题与-id-关系)
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">示例：[跳转到本文锚点](https:&#x2F;&#x2F;blog.jijian.link&#x2F;2020-01-08&#x2F;hexo-anchor-link&#x2F;#hexo-标题与-id-关系)</span><br><span class="line"></span><br><span class="line">#### 站内文章链接</span><br><span class="line"></span><br><span class="line">官方有标签插件实现站内文章链接，如下：</span><br></pre></td></tr></table></figure>
+post_link官方文档{% post_link 'hexo blog' %}
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">示例：[hexo blog 搭建](https:&#x2F;&#x2F;blog.jijian.link&#x2F;2020-01-03&#x2F;hexo-blog&#x2F;)</span><br><span class="line"></span><br><span class="line">注意： 这儿优先使用文章 [&#96;Front-matter&#96;](https:&#x2F;&#x2F;hexo.io&#x2F;zh-cn&#x2F;docs&#x2F;front-matter) 中的&#96;permalink&#96;字段，如果没有 &#96;permalink&#96; ，则使用 &#96;文件名字&#96;！</span><br><span class="line"></span><br><span class="line">#### 站内其他文章锚点链接</span><br><span class="line"></span><br><span class="line">上面的 &#96;post_link&#96; 方式链接站内文章好用，但是不支持文章的锚点链接，我们需要换一种方式。</span><br><span class="line"></span><br><span class="line">官方文档还有一个 &#96;post_path&#96; ，用于获取文章路径，结合 markdown 内置的链接方式，即可实现锚点超链接，如下：</span><br></pre></td></tr></table></figure>
+post_path官方文档[hexo 安装]({% post_path 'hexo blog' %}#安装)
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">示例：[hexo 安装](https:&#x2F;&#x2F;blog.jijian.link&#x2F;2020-01-03&#x2F;hexo-blog&#x2F;#安装)</span><br><span class="line"></span><br><span class="line">也可以使用 html a 标签实现，如下：</span><br></pre></td></tr></table></figure>
+&lt;a href=&quot;{% post_path 'hexo blog' %}#安装&quot;&gt;hexo 安装&lt;/a&gt;
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">示例：[hexo 安装](https:&#x2F;&#x2F;blog.jijian.link&#x2F;2020-01-03&#x2F;hexo-blog&#x2F;#安装)</span><br><span class="line"></span><br><span class="line">注意：</span><br><span class="line"></span><br><span class="line">1. 如果文章中有图片，可能会出现锚点位置不准确问题，原因是图片加载成功之后会把内容高度撑开。</span><br><span class="line">2. 如果如果有空格，需要把空格换成连字符 &#96;-&#96;。</span><br><span class="line"></span><br><span class="line">#### 站外文章锚点</span><br><span class="line"></span><br><span class="line">直接使用全路径即可，如下：</span><br></pre></td></tr></table></figure>
+[hexo 引用文章](https://hexo.io/zh-cn/docs/tag-plugins#%E5%BC%95%E7%94%A8%E6%96%87%E7%AB%A0)
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">示例：[hexo 引用文章](https:&#x2F;&#x2F;hexo.io&#x2F;zh-cn&#x2F;docs&#x2F;tag-plugins#引用文章)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">### 新建文章</span><br></pre></td></tr></table></figure>
+hexo new [layout] &lt;title&gt;
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">### 摘要</span><br></pre></td></tr></table></figure>
+&lt;!-- more --&gt;</code></pre></li>
+</ul>
+<h3 id="关闭动画"><a href="#关闭动画" class="headerlink" title="关闭动画"></a>关闭动画</h3><p>主题配置文件：motion选项：false</p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/%E8%AF%BE%E7%A8%8B/%E5%8D%9A%E5%BC%88%E8%AE%BA/2/" rel="prev" title="博弈论2 -- 单向偏移，后向归纳">
+      <i class="fa fa-chevron-left"></i> 博弈论2 -- 单向偏移，后向归纳
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+  </div>
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#插入链接"><span class="nav-number">1.</span> <span class="nav-text">插入链接</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#关闭动画"><span class="nav-number">2.</span> <span class="nav-text">关闭动画</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Mingzhuoer"
+      src="/uploads/head.jpg">
+  <p class="site-author-name" itemprop="name">Mingzhuoer</p>
+  <div class="site-description" itemprop="description">一起加油！(ง •_•)ง</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/MingZhuoer" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;MingZhuoer" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Mingzhuoer</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v4.2.0
+  </div>
+  <span class="post-meta-divider">|</span>
+  <div class="theme-info">主题 – <a href="https://pisces.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a> v7.7.2
+  </div>
+
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
