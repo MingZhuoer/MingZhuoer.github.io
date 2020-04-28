@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello</title>
-    <url>/Hello/</url>
-    <content><![CDATA[<p>欢迎来到卓主任的博客~不定期整理一些笔记，分享一些想法……</p>
-]]></content>
-  </entry>
-  <entry>
     <title>搭建博客</title>
     <url>/%E5%B0%8F%E8%AE%B0/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</url>
     <content><![CDATA[<p>折腾了很久，总算有点成效，工具更新太快，教程已经跟不上了。就先这样写博客吧！这篇文章是我随便记记，特别乱，其他人还是不要看了。</p>
@@ -81,6 +75,12 @@
 ]]></content>
   </entry>
   <entry>
+    <title>Hello</title>
+    <url>/Hello/</url>
+    <content><![CDATA[<p>欢迎来到卓主任的博客~不定期整理一些笔记，分享一些想法……</p>
+]]></content>
+  </entry>
+  <entry>
     <title>Daily</title>
     <url>/Daily/</url>
     <content><![CDATA[<p>自控力是优秀的人必不可少的能力。革命尚未成功，同志仍需努力，一起加油！</p>
@@ -88,6 +88,84 @@
 
 
 
+<table>
+<thead>
+<tr>
+<th align="center">第11周</th>
+<th align="center">起床</th>
+<th align="center">睡觉</th>
+<th align="center">不逛</th>
+<th align="center">不打</th>
+<th align="center">运动</th>
+<th align="center">记录</th>
+<th align="center">单词</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">2020-04-28</td>
+<td align="center">1</td>
+<td align="center"></td>
+<td align="center">0.7</td>
+<td align="center">1</td>
+<td align="center">1</td>
+<td align="center">1</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="center">2020-04-29</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">2020-04-30</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">2020-05-01</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">2020-05-02</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">2020-05-03</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<h3 id="2020-04-28"><a href="#2020-04-28" class="headerlink" title="2020-04-28"></a>2020-04-28</h3><p>第一天也算是开了个挺好的头，昨晚12点睡觉，早上7点半起床，比之前强很多。这几天的任务就是把作业补完，感觉进度比较落后。今天看手机的时间也短了，但是还可以做得更好的。晚饭之后绕小区溜了一圈。</p>
+<ul>
+<li>之前有一些不想写的作业，觉得做这样的作业是在浪费时间……导致作业一直拖到临近ddl。最终还是得不情愿地做完。要克服这种拖延，应该这样想：<strong>在目前我所处的阶段，作业仍然是一项必须完成的任务</strong>，不管喜不喜欢，要想办法来使自己完成它。这些作业就像是马斯洛需求层次的“生理需求”，只有满足一定的要求，才能去追求更高的层次……</li>
+</ul>
 <h3 id="2020-04-27"><a href="#2020-04-27" class="headerlink" title="2020-04-27"></a>2020-04-27</h3><p>从今天开始，做一个自律的人。养成这些习惯，是对我有好处的。</p>
 <ul>
 <li><input disabled="" type="checkbox"> 早上8点之前起床</li>
