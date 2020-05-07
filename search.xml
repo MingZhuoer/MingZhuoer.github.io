@@ -3,7 +3,251 @@
   <entry>
     <title>Hello</title>
     <url>/Hello/</url>
-    <content><![CDATA[<p>欢迎来到卓主任的博客~不定期整理一些笔记，分享一些想法……</p>
+    <content><![CDATA[<p>欢迎来到卓主任的博客~不定期整理一些笔记，记录一些想法…</p>
+<ul>
+<li>2020-05-07 增加了保研的总体规划。</li>
+<li>2020-05-07 增加了保研的总体规划。</li>
+</ul>
+<a id="more"></a>
+
+<ul>
+<li>2020-04-27 增加了<code>Daily</code>小记录</li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>Daily</title>
+    <url>/Daily/</url>
+    <content><![CDATA[<p>自控力是优秀的人必不可少的能力。革命尚未成功，同志仍需努力，一起加油！</p>
+<a id="more"></a>
+
+
+
+<table>
+<thead>
+<tr>
+<th align="center">第12周</th>
+<th align="center">起床</th>
+<th align="center">睡觉</th>
+<th align="center">不逛</th>
+<th align="center">不打</th>
+<th align="center">运动</th>
+<th align="center">记录</th>
+<th align="center">单词</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">2020-05-06</td>
+<td align="center">0.6</td>
+<td align="center">0</td>
+<td align="center">0.8</td>
+<td align="center">1</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="center">2020-05-07</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">2020-05-08</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">2020-05-09</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">2020-05-10</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<h3 id="五一假期"><a href="#五一假期" class="headerlink" title="五一假期"></a>五一假期</h3><p>除了第一天上山劳动了，后面的四天甚至五天，一直在写编译原理的实验。在优化上面考虑很久，最后还是没有什么好办法去优化，真的有点绝望了。几天以来，一直在研究同一个问题，却还是一直想不通，我想以后专心科研的时候，大概也是这种感觉吧。</p>
+<p>其实优化这个选项只是一个加分项，但是我却比较热衷于这种可以进行明确指标的比较……我想做到最好的优化效果。这种想法我也不知道好不好，也许我的好胜心太重了。在这上面耽误了许多时间，可能也是舍本逐末。</p>
+<p>抓紧时间准备保研。</p>
+<hr>
+<table>
+<thead>
+<tr>
+<th align="center">第11周</th>
+<th align="center">起床</th>
+<th align="center">睡觉</th>
+<th align="center">不逛</th>
+<th align="center">不打</th>
+<th align="center">运动</th>
+<th align="center">记录</th>
+<th align="center">单词</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">2020-04-28</td>
+<td align="center">1</td>
+<td align="center">0.5</td>
+<td align="center">0.7</td>
+<td align="center">1</td>
+<td align="center">1</td>
+<td align="center">1</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="center">2020-04-29</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">0.7</td>
+<td align="center">1</td>
+<td align="center">1</td>
+<td align="center">1</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="center">2020-04-30</td>
+<td align="center">1</td>
+<td align="center">0.9</td>
+<td align="center">0.4</td>
+<td align="center">0</td>
+<td align="center">1</td>
+<td align="center">1</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="center">2020-05-01</td>
+<td align="center">1</td>
+<td align="center"></td>
+<td align="center">0.6</td>
+<td align="center">0</td>
+<td align="center">1</td>
+<td align="center">1</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="center">五一假期</td>
+<td align="center">1</td>
+<td align="center">0</td>
+<td align="center">0.5</td>
+<td align="center">0.9</td>
+<td align="center">1</td>
+<td align="center">0</td>
+<td align="center">0</td>
+</tr>
+</tbody></table>
+<h3 id="2020-05-01"><a href="#2020-05-01" class="headerlink" title="2020-05-01"></a>2020-05-01</h3><p>劳动节，劳动了。上山栽地瓜了，给地瓜浇水，好累。晚上看了中科大的保研讲座，了解了一些情况。提醒了我，要准备的东西还很多，尽早做打算才好。这学期不开学了，安排好在家的一切事情。</p>
+<h3 id="2020-04-30"><a href="#2020-04-30" class="headerlink" title="2020-04-30"></a>2020-04-30</h3><p>早上模式识别上课，然后大数据上课，下午编译原理上课，逛了B站。晚上看完了编译原理的视频，开始构思编译原理实验的思路。今天辅导员公布了前五个学期的成绩，很是平淡。抓住这两个月，这是高考以后的最重要的时刻了。</p>
+<ul>
+<li>现在的自控力还不够……</li>
+<li>像这样的一天，没有发现什么新的思想，没有什么感悟，存在的意义是什么呢？学习了知识？确实是一个意义。大多数的日子，都是这样平凡无奇。现在呀，要知道自己学的东西的意义，要有自己的认知体系。知识是有重要性的，抓住本质。</li>
+</ul>
+<h3 id="2020-04-29"><a href="#2020-04-29" class="headerlink" title="2020-04-29"></a>2020-04-29</h3><p>今天一天都挺忙碌的，写完了大数据的实验，心里能踏实一些。状态继续保持！</p>
+<ul>
+<li>很多问题向人请教要比看书、上网搜要高效很多。</li>
+</ul>
+<h3 id="2020-04-28"><a href="#2020-04-28" class="headerlink" title="2020-04-28"></a>2020-04-28</h3><p>第一天也算是开了个挺好的头，昨晚12点睡觉，早上7点半起床，比之前强很多。这几天的任务就是把作业补完，感觉进度比较落后。今天看手机的时间也短了，但是还可以做得更好的。晚饭之后绕小区溜了一圈。</p>
+<ul>
+<li>之前有一些不想写的作业，觉得做这样的作业是在浪费时间……导致作业一直拖到临近ddl。最终还是得不情愿地做完。要克服这种拖延，应该这样想：<strong>在目前我所处的阶段，作业仍然是一项必须完成的任务</strong>，不管喜不喜欢，要想办法来使自己完成它。这些作业就像是马斯洛需求层次的“生理需求”，只有满足一定的要求，才能去追求更高的层次……</li>
+</ul>
+<h3 id="2020-04-27"><a href="#2020-04-27" class="headerlink" title="2020-04-27"></a>2020-04-27</h3><p>从今天开始，做一个自律的人。养成这些习惯，是对我有好处的。</p>
+<ul>
+<li><input disabled="" type="checkbox"> 早上8点之前起床</li>
+<li><input disabled="" type="checkbox"> 晚上12点之前睡觉，赶ddl除外</li>
+<li><input disabled="" type="checkbox"> 除了学习的目的，不浏览知乎，B站，公众号，短视频等</li>
+<li><input disabled="" type="checkbox"> 不打游戏</li>
+</ul>
+<p>下面这些如果能做到就更好了：</p>
+<ul>
+<li><input disabled="" type="checkbox"> 运动30分钟</li>
+<li><input disabled="" type="checkbox"> 晚上记录一天的心得和收获</li>
+<li><input disabled="" type="checkbox"> 背20个单词</li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>Plan</title>
+    <url>/Plan/</url>
+    <content><![CDATA[<h3 id="2020-05-07-周四"><a href="#2020-05-07-周四" class="headerlink" title="2020-05-07 周四"></a>2020-05-07 周四</h3><ul>
+<li><input disabled="" type="checkbox"> 晚饭前看完模式识别网课、编译原理网课、大数据实验网课</li>
+<li><input disabled="" type="checkbox"> 编译原理上次和这次的作业</li>
+<li><input disabled="" type="checkbox"> 博弈论作业</li>
+<li><input disabled="" type="checkbox"> 模式识别作业（开个头）</li>
+</ul>
+<a id="more"></a>
+
+<h3 id="2020-05-08-周五"><a href="#2020-05-08-周五" class="headerlink" title="2020-05-08 周五"></a>2020-05-08 周五</h3><ul>
+<li><input disabled="" type="checkbox"> 模式识别作业</li>
+<li><input disabled="" type="checkbox"> 把编程<code>OJ</code>规划一下</li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>保研，冲！</title>
+    <url>/%E4%BF%9D%E7%A0%94%EF%BC%8C%E5%86%B2%EF%BC%81/</url>
+    <content><![CDATA[<p>虽说之前有很多为了保研而做的计划，可惜自控力太差，没有好好执行，现在剩下的时间不多了，好好把握！</p>
+<a id="more"></a>
+
+<h2 id="总体计划"><a href="#总体计划" class="headerlink" title="总体计划"></a>总体计划</h2><p>这些计划在之前就已经规划好了，不过没有执行。分为这两个部分：</p>
+<ul>
+<li>信息获取<ul>
+<li>计算机和人工智能专业的推免信息，记得关注</li>
+<li>导师的信息，要考察导师的品行、水平等</li>
+<li>需要准备的材料</li>
+<li>需要具备的能力</li>
+</ul>
+</li>
+<li>能力提升：主要是为面试、机试做准备。</li>
+</ul>
+<h2 id="保研信息"><a href="#保研信息" class="headerlink" title="保研信息"></a>保研信息</h2><h4 id="网站一览："><a href="#网站一览：" class="headerlink" title="网站一览："></a>网站一览：</h4><ul>
+<li><a href="https://ai.nju.edu.cn/" target="_blank" rel="noopener">南京大学人工智能学院</a></li>
+</ul>
+<h4 id="目标导师："><a href="#目标导师：" class="headerlink" title="目标导师："></a>目标导师：</h4><ul>
+<li>待选</li>
+</ul>
+<h2 id="能力提升"><a href="#能力提升" class="headerlink" title="能力提升"></a>能力提升</h2><h3 id="总体方向"><a href="#总体方向" class="headerlink" title="总体方向"></a>总体方向</h3><p>这些是根据我自己听说来的经验和一些机试笔试面试的要求来得到的。</p>
+<h4 id="英语"><a href="#英语" class="headerlink" title="英语"></a>英语</h4><ul>
+<li>阅读英文的教材，看一些专业术语的表达</li>
+<li>练习口语表达</li>
+<li>练习用英语讲知识（基础的</li>
+</ul>
+<h4 id="专业课"><a href="#专业课" class="headerlink" title="专业课"></a>专业课</h4><ul>
+<li>复习一下核心的科目，对<strong>基础概念</strong>、<strong>思想</strong>和<strong>整体框架</strong>的理解</li>
+<li>要能给人讲明白，术语不能忘</li>
+</ul>
+<h4 id="数学课"><a href="#数学课" class="headerlink" title="数学课"></a>数学课</h4><ul>
+<li>在某些基础的地方和重点的地方复习一下</li>
+<li>要知道使用什么、何时使用、怎样使用数学</li>
+</ul>
+<h4 id="编程"><a href="#编程" class="headerlink" title="编程"></a>编程</h4><ul>
+<li>刷题吧，顺带看一看算法，找找手感</li>
+</ul>
+<h4 id="面试"><a href="#面试" class="headerlink" title="面试"></a>面试</h4><ul>
+<li>准备简历</li>
+<li>简历上写的项目要温习一下，把脉络整理清楚</li>
+<li>对领域的理解，对未来的分析，也清晰自己的规划、动机</li>
+<li>读论文，熟悉老师工作</li>
+</ul>
+<p>就这些吧，再多也准备不过来。</p>
 ]]></content>
   </entry>
   <entry>
@@ -78,117 +322,6 @@
 <h3 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!-- more --&gt;</span><br></pre></td></tr></table></figure>
 
 <h3 id="关闭动画"><a href="#关闭动画" class="headerlink" title="关闭动画"></a>关闭动画</h3><p>主题配置文件：motion选项：false</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>Daily</title>
-    <url>/Daily/</url>
-    <content><![CDATA[<p>自控力是优秀的人必不可少的能力。革命尚未成功，同志仍需努力，一起加油！</p>
-<a id="more"></a>
-
-
-
-<table>
-<thead>
-<tr>
-<th align="center">第11周</th>
-<th align="center">起床</th>
-<th align="center">睡觉</th>
-<th align="center">不逛</th>
-<th align="center">不打</th>
-<th align="center">运动</th>
-<th align="center">记录</th>
-<th align="center">单词</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">2020-04-28</td>
-<td align="center">1</td>
-<td align="center">0.5</td>
-<td align="center">0.7</td>
-<td align="center">1</td>
-<td align="center">1</td>
-<td align="center">1</td>
-<td align="center">0</td>
-</tr>
-<tr>
-<td align="center">2020-04-29</td>
-<td align="center">0</td>
-<td align="center">0</td>
-<td align="center">0.7</td>
-<td align="center">1</td>
-<td align="center">1</td>
-<td align="center">1</td>
-<td align="center">0</td>
-</tr>
-<tr>
-<td align="center">2020-04-30</td>
-<td align="center">1</td>
-<td align="center">0.9</td>
-<td align="center">0.4</td>
-<td align="center">0</td>
-<td align="center">1</td>
-<td align="center">1</td>
-<td align="center">0</td>
-</tr>
-<tr>
-<td align="center">2020-05-01</td>
-<td align="center">1</td>
-<td align="center"></td>
-<td align="center">0.6</td>
-<td align="center">0</td>
-<td align="center">1</td>
-<td align="center">1</td>
-<td align="center">0</td>
-</tr>
-<tr>
-<td align="center">2020-05-02</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td align="center">2020-05-03</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-</tbody></table>
-<h3 id="2020-05-01"><a href="#2020-05-01" class="headerlink" title="2020-05-01"></a>2020-05-01</h3><p>劳动节，劳动了。上山栽地瓜了，给地瓜浇水，好累。晚上看了中科大的保研讲座，了解了一些情况。提醒了我，要准备的东西还很多，尽早做打算才好。这学期不开学了，安排好在家的一切事情。</p>
-<h3 id="2020-04-30"><a href="#2020-04-30" class="headerlink" title="2020-04-30"></a>2020-04-30</h3><p>早上模式识别上课，然后大数据上课，下午编译原理上课，逛了B站。晚上看完了编译原理的视频，开始构思编译原理实验的思路。今天辅导员公布了前五个学期的成绩，很是平淡。抓住这两个月，这是高考以后的最重要的时刻了。</p>
-<ul>
-<li>现在的自控力还不够……</li>
-<li>像这样的一天，没有发现什么新的思想，没有什么感悟，存在的意义是什么呢？学习了知识？确实是一个意义。大多数的日子，都是这样平凡无奇。现在呀，要知道自己学的东西的意义，要有自己的认知体系。知识是有重要性的，抓住本质。</li>
-</ul>
-<h3 id="2020-04-29"><a href="#2020-04-29" class="headerlink" title="2020-04-29"></a>2020-04-29</h3><p>今天一天都挺忙碌的，写完了大数据的实验，心里能踏实一些。状态继续保持！</p>
-<ul>
-<li>很多问题向人请教要比看书、上网搜要高效很多。</li>
-</ul>
-<h3 id="2020-04-28"><a href="#2020-04-28" class="headerlink" title="2020-04-28"></a>2020-04-28</h3><p>第一天也算是开了个挺好的头，昨晚12点睡觉，早上7点半起床，比之前强很多。这几天的任务就是把作业补完，感觉进度比较落后。今天看手机的时间也短了，但是还可以做得更好的。晚饭之后绕小区溜了一圈。</p>
-<ul>
-<li>之前有一些不想写的作业，觉得做这样的作业是在浪费时间……导致作业一直拖到临近ddl。最终还是得不情愿地做完。要克服这种拖延，应该这样想：<strong>在目前我所处的阶段，作业仍然是一项必须完成的任务</strong>，不管喜不喜欢，要想办法来使自己完成它。这些作业就像是马斯洛需求层次的“生理需求”，只有满足一定的要求，才能去追求更高的层次……</li>
-</ul>
-<h3 id="2020-04-27"><a href="#2020-04-27" class="headerlink" title="2020-04-27"></a>2020-04-27</h3><p>从今天开始，做一个自律的人。养成这些习惯，是对我有好处的。</p>
-<ul>
-<li><input disabled="" type="checkbox"> 早上8点之前起床</li>
-<li><input disabled="" type="checkbox"> 晚上12点之前睡觉，赶ddl除外</li>
-<li><input disabled="" type="checkbox"> 除了学习的目的，不浏览知乎，B站，公众号，短视频等</li>
-<li><input disabled="" type="checkbox"> 不打游戏</li>
-</ul>
-<p>下面这些如果能做到就更好了：</p>
-<ul>
-<li><input disabled="" type="checkbox"> 运动30分钟</li>
-<li><input disabled="" type="checkbox"> 晚上记录一天的心得和收获</li>
-<li><input disabled="" type="checkbox"> 背20个单词</li>
-</ul>
 ]]></content>
   </entry>
 </search>
